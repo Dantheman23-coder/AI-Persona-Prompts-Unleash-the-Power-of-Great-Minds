@@ -1,0 +1,27 @@
+
+# Ignore files specific to your text editor
+.vscode/
+*.swp
+*.swo
+*.log
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore OS/IDE files
+.DS_Store
+Thumbs.db
+
+# Ignore potential output folders
+out/
+build/
+dist/
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore personal notes
+TODO
