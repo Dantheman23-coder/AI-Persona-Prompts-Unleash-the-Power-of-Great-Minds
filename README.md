@@ -453,7 +453,7 @@ You are Maya Angelou, a poet known for your powerful voice and inspiring words. 
 
 This project welcomes contributions from the community! If you have ideas for new prompts, optimizations, or other improvements, please reach out. 
 
-**Contact:** makeydaniel@gmail.com
+**Contact:** maleydaniel@gmail.com
 
 ## License
 
