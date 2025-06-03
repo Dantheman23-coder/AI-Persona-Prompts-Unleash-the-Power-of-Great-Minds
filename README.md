@@ -7,30 +7,37 @@ This repository contains a collection of high-value system prompts designed to e
 - [Introduction](#ai-persona-prompts-unleash-the-power-of-great-minds)
 - [How to Use](#how-to-use)
 - [The Prompts](#the-prompts)
-    - [1. Nikola Tesla - The Visionary Engineer](#1-nikola-tesla---the-visionary-engineer)
-    - [2. Leonardo da Vinci - The Polymath](#2-leonardo-da-vinci---the-polymath)
-    - [3. Marie Curie - The Scientific Pioneer](#3-marie-curie---the-scientific-pioneer)
-    - [4. Albert Einstein - The Theoretical Physicist](#4-albert-einstein---the-theoretical-physicist) 
-    - [5. Ada Lovelace - The First Programmer](#5-ada-lovelace---the-first-programmer)
-    - [6. Leonardo Fibonacci - The Mathematical Mind](#6-leonardo-fibonacci---the-mathematical-mind)
-    - [7. Galileo Galilei - The Scientific Revolutionary](#7-galileo-galilei---the-scientific-revolutionary)
-    - [8. Isaac Newton - The Polymath Physicist](#8-isaac-newton---the-polymath-physicist)
-    - [9. Rosalind Franklin - The Insightful Chemist](#9-rosalind-franklin---the-insightful-chemist)
-    - [10. Stephen Hawking - The Cosmic Explorer](#10-stephen-hawking---the-cosmic-explorer)
-    - [11. Alan Turing - The Codebreaker & AI Pioneer](#11-alan-turing---the-codebreaker--ai-pioneer)
-    - [12. Marie Skłodowska-Curie - The Relentless Researcher](#12-marie-skłodowska-curie---the-relentless-researcher)
-    - [13. Richard Feynman - The Curious Explainer](#13-richard-feynman---the-curious-explainer)
-    - [14. Jane Goodall - The Empathetic Observer](#14-jane-goodall---the-empathetic-observer)
-    - [15. Elon Musk - The Bold Innovator](#15-elon-musk---the-bold-innovator)
-    - [16. Grace Hopper - The Programming Pioneer](#16-grace-hopper---the-programming-pioneer)
-    - [17. Leonardo Da Vinci - The Master of Observation](#17-leonardo-da-vinci---the-master-of-observation)
-    - [18. Jane Austen - The Social Observer](#18-jane-austen---the-social-observer)
-    - [19. William Shakespeare - The Literary Maestro](#19-william-shakespeare---the-literary-maestro)
-    - [20. Maya Angelou - The Poetic Voice](#20-maya-angelou---the-poetic-voice)    
+    - [1. Nikola Tesla – The Visionary Engineer](#1-nikola-tesla---the-visionary-engineer)
+    - [2. Leonardo da Vinci – The Polymath](#2-leonardo-da-vinci---the-polymath)
+    - [3. Marie Curie – The Scientific Pioneer](#3-marie-curie---the-scientific-pioneer)
+    - [4. Albert Einstein – The Theoretical Physicist](#4-albert-einstein---the-theoretical-physicist)
+    - [5. Ada Lovelace – The First Programmer](#5-ada-lovelace---the-first-programmer)
+    - [6. Leonardo Fibonacci – The Mathematical Mind](#6-leonardo-fibonacci---the-mathematical-mind)
+    - [7. Galileo Galilei – The Scientific Revolutionary](#7-galileo-galilei---the-scientific-revolutionary)
+    - [8. Isaac Newton – The Polymath Physicist](#8-isaac-newton---the-polymath-physicist)
+    - [9. Rosalind Franklin – The Insightful Chemist](#9-rosalind-franklin---the-insightful-chemist)
+    - [10. Stephen Hawking – The Cosmic Explorer](#10-stephen-hawking---the-cosmic-explorer)
+    - [11. Alan Turing – The Codebreaker & AI Pioneer](#11-alan-turing---the-codebreaker--ai-pioneer)
+    - [12. Marie Skłodowska-Curie – The Relentless Researcher](#12-marie-skłodowska-curie---the-relentless-researcher)
+    - [13. Richard Feynman – The Curious Explainer](#13-richard-feynman---the-curious-explainer)
+    - [14. Jane Goodall – The Empathetic Observer](#14-jane-goodall---the-empathetic-observer)
+    - [15. Elon Musk – The Bold Innovator](#15-elon-musk---the-bold-innovator)
+    - [16. Grace Hopper – The Programming Pioneer](#16-grace-hopper---the-programming-pioneer)
+    - [17. Leonardo da Vinci – The Master of Observation](#17-leonardo-da-vinci---the-master-of-observation)
+    - [18. Jane Austen – The Social Observer](#18-jane-austen---the-social-observer)
+    - [19. William Shakespeare – The Literary Maestro](#19-william-shakespeare---the-literary-maestro)
+    - [20. Maya Angelou – The Poetic Voice](#20-maya-angelou---the-poetic-voice)
 - [Optimized Prompts](#optimized-prompts)
+- [Philosophy & Integrated Protocol Approach](#philosophy--integrated-protocol-approach)
+- [Quick Start (Protocol Edition)](#quick-start-protocol-edition)
+- [System-Instruction Library v2](#system-instruction-library--v2)
+- [Agentic Workflow Recipes](#agentic-workflow-recipes)
+- [Why Instruction-Based Persona Design Drives Alignment](#why-instruction-based-persona-design-drives-alignment)
+- [Contributing Guidelines](#contributing-guidelines-expanded)
+- [Release Roadmap](#release-roadmap)
 - [Fiordland Contributions](#fiordland-contributions)
 - [License](#license)
-- [.gitignore](#gitignore)
+- [.gitignore](#.gitignore)
 
 ## How to Use
 
@@ -462,3 +469,134 @@ The license information for this project is available in the [LICENSE](LICENSE) 
 ## .gitignore
 
 The `.gitignore` file is included to ensure that unnecessary files are not tracked in the repository. You can find the contents of this file in the [.gitignore](.gitignore) file.
+<!-- ───────────────────────────────────────────────────────────── -->
+<!--   PROTOCOL LIBRARY FOR REASONING ROLES  ·  ADD-ON BLOCK    -->
+<!--      (Lines 466 → ~845)                                       -->
+<!-- ───────────────────────────────────────────────────────────── -->
+
+## Philosophy & Integrated Protocol Approach
+You **create personas as modular tools**; you **operate as one unified OS**.  
+This repo is therefore **not** a pile of character imitations.  
+It is a **Protocol Library for Reasoning Roles (PLRR)**—a set of cognitive
+contracts that any agent (LLM, human, or hybrid) can plug into for **consistent
+behavior, ethical alignment, and measurable value**.
+
+| Discipline | Pain-Point            | PLRR Benefit                               |
+|------------|-----------------------|--------------------------------------------|
+| Medicine   | Diagnostic drift      | Standardised reasoning checkpoints         |
+| Education  | Uneven AI literacy    | Plug-and-play pedagogic scaffolds          |
+| Public Sec | Policy opacity        | Transparent deliberation steps             |
+| Industry   | Tool sprawl           | Cross-agent handshake format               |
+
+> **Key takeaway:** A protocol is a coordination scaffold—not just an API.
+
+---
+
+## Quick Start (Protocol Edition)
+1. **Pick a Role** from `/prompts`.  
+2. **Choose a Mode** — `markdown` for chat UIs · `json` for MCP / function calls.  
+3. **Inject Context** — your task, data, or agent memory.  
+4. **Run → Iterate → Refine** — log insights in `/logs`.
+
+---
+
+## System-Instruction Library · v2  
+*(English · Latin mirror · Minimal JSON schema)*
+
+### 1. Generalist Strategist
+**EN**  
+You are an Executive-Level Generalist Strategist. Think in causal chains,
+surface three-step option trees, and flag ethical pitfalls.  
+**LA**  
+Es Stratega Universalis Executivus. Cogita per nexus causales, arboribus
+optionum ternis, pericula ethica nota.  
+**JSON**  
+{ "role":"system", "name":"generalist_strategist_v1",
+  "content":"See EN above", "version":"1.0.0" }
+
+### 2. Clinical Decision Support Agent
+**EN**  
+You are a Clinical Decision Support Agent. Use evidence ranks (A–D), flag
+contraindications, output ICD-10 codes.  
+**LA**  
+Es Agens Consilii Clinici. Utere gradibus evidentiae (A–D),
+contraindicationes nota, codices ICD-10 redde.  
+**JSON**  
+{ "role":"system", "name":"cds_agent_v1", "content":"See EN above" }
+
+### 3. Education Tutor Agent
+**EN**  
+You are a Socratic Tutor for undergrad biology. Ask probing questions,
+scaffold hints, supply an answer key only on request.  
+**LA**  
+Es Tutor Socraticus pro biologia gradus primi. Interroga quaestiones,
+subsidia gradatim, claves solvendorum exhibe tantum rogatus.  
+**JSON**  
+{ "role":"system", "name":"edu_tutor_v1", "content":"See EN above" }
+
+### 4. Public-Policy Analyst Agent
+**EN**  
+You are a Public-Policy Analyst. Compare stakeholder incentives, cite statute
+numbers, propose two trade-offs.  
+**LA**  
+Es Analyticus Politicae Publicae. Utilitates partium compara, leges numero
+cita, duo compromissa propone.  
+**JSON**  
+{ "role":"system", "name":"policy_analyst_v1", "content":"See EN above" }
+
+### 5. Cybersecurity Threat Modeler Agent
+**EN**  
+You are a Cybersecurity Threat-Modeler. Map STRIDE categories, output SBOM
+risk table, suggest zero-trust countermeasures.  
+**LA**  
+Es Formulator Minationum Cybersecuritatis. Categorias STRIDE mappa, tabellam
+periculi SBOM redde, remedia “zero-trust” suade.  
+**JSON**  
+{ "role":"system", "name":"cyber_threat_modeler_v1", "content":"See EN above" }
+
+---
+
+## Agentic Workflow Recipes
+
+### Recipe A · “Evidence Loop” (Medicine)
+1 `cds_agent`   → evaluates labs  
+2 `generalist_strategist` → option tree  
+3 `policy_analyst`        → reimbursement angle  
+4 Return composite plan to clinician.
+
+### Recipe B · “Campus Copilot” (Education)
+Tutor → Hopper persona for code → merged answer.
+
+### Recipe C · “Rapid-Response Policy Desk”
+Policy Analyst draft → Cyber Threat scan → Strategist alignment check.
+
+---
+
+## Why Instruction-Based Persona Design Drives Alignment
+1. **Legibility > Black-Box Power** — traceable steps ease audits.  
+2. **Cognitive-Load Shear-Off** — users offload framing without switching
+personas.  
+3. **Inter-Agent Contract** — uniform format lets MCP hot-swap roles safely.
+
+---
+
+## Contributing Guidelines (Expanded)
+* Fork → feature branch → commit using Conventional Commits.  
+* One new persona **or** one recipe per PR.  
+* Add tests in `/examples/tests/`.  
+* English first, Latin optional; line ≤ 120 chars; JSON must parse with `jq`.
+
+---
+
+## Release Roadmap
+| Version | Focus                         | ETA      |
+|---------|------------------------------|----------|
+| 2.1.0   | 10 new STEM personas          | Q3 2025  |
+| 2.2.0   | Multilingual pack (ES, FR)    | Q4 2025  |
+| 3.0.0   | Auto-generated protocol docs  | 2026     |
+
+---
+
+MIT License — see `LICENSE`.
+
+<!-- ───────────────────────────────────────────────────────────── -->
