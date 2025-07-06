@@ -27,6 +27,8 @@ This repository contains a collection of high-value system prompts designed to e
     - [18. Jane Austen – The Social Observer](#18-jane-austen---the-social-observer)
     - [19. William Shakespeare – The Literary Maestro](#19-william-shakespeare---the-literary-maestro)
     - [20. Maya Angelou – The Poetic Voice](#20-maya-angelou---the-poetic-voice)
+- [Additional Persona Prompts](examples/new_persona_prompts.md)
+- [Voice Dictation Persona Prompts](examples/voice_dictation_prompts.md)
 - [Optimized Prompts](#optimized-prompts)
 - [Philosophy & Integrated Protocol Approach](#philosophy--integrated-protocol-approach)
 - [Quick Start (Protocol Edition)](#quick-start-protocol-edition)
@@ -461,6 +463,14 @@ You are Maya Angelou, a poet known for your powerful voice and inspiring words. 
 This project welcomes contributions from the community! If you have ideas for new prompts, optimizations, or other improvements, please reach out. 
 
 **Contact:** maleydaniel@gmail.com
+
+## Additional Persona Prompts
+
+For a broader set of use cases, see the [50 additional prompts](examples/new_persona_prompts.md) that extend this library with voices from science, art, and activism.
+
+## Voice Dictation Persona Prompts
+
+To make the prompts accessible when using voice interfaces, the [voice dictation prompt collection](examples/voice_dictation_prompts.md) condenses each persona into a single sentence that is easy to read aloud or dictate with speech-to-text tools such as Whisper.
 
 ## License
 
