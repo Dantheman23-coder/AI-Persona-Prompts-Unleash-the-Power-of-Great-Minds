@@ -17,6 +17,12 @@ Thumbs.db
 out/
 build/
 dist/
+*.egg-info/
+site/
+
+# Caches
+.mypy_cache/
+.pytest_cache/
 
 # Ignore virtual environments
 .venv/
