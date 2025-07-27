@@ -2,6 +2,8 @@
 
 This repository contains a collection of high-value system prompts designed to evoke the unique thinking styles and problem-solving approaches of famous figures throughout history. Leverage their cognitive strengths in your AI interactions to achieve remarkable results.
 
+We provide **71 persona prompts** in total, along with a concise voice-dictation version for each and a lightweight command protocol so you can load any persona with a single `/use <name>` command.
+
 **Table of Contents**
 
 - [Introduction](#ai-persona-prompts-unleash-the-power-of-great-minds)
@@ -27,9 +29,13 @@ This repository contains a collection of high-value system prompts designed to e
     - [18. Jane Austen – The Social Observer](#18-jane-austen---the-social-observer)
     - [19. William Shakespeare – The Literary Maestro](#19-william-shakespeare---the-literary-maestro)
     - [20. Maya Angelou – The Poetic Voice](#20-maya-angelou---the-poetic-voice)
+    - [21. Cici – Command Protocol Guide](#21-cici---command-protocol-guide)
+- [Additional Persona Prompts](examples/new_persona_prompts.md)
+- [Voice Dictation Persona Prompts](examples/voice_dictation_prompts.md)
 - [Optimized Prompts](#optimized-prompts)
 - [Philosophy & Integrated Protocol Approach](#philosophy--integrated-protocol-approach)
 - [Quick Start (Protocol Edition)](#quick-start-protocol-edition)
+- [Command Protocol](#command-protocol)
 - [System-Instruction Library v2](#system-instruction-library--v2)
 - [Agentic Workflow Recipes](#agentic-workflow-recipes)
 - [Why Instruction-Based Persona Design Drives Alignment](#why-instruction-based-persona-design-drives-alignment)
@@ -42,9 +48,11 @@ This repository contains a collection of high-value system prompts designed to e
 ## How to Use
 
 1. **Choose Your Persona:** Select the prompt that best aligns with the skills and thinking style you need for your task.
-2. **Copy the Prompt:** Copy the entire prompt text within the code block.
+2. **Load the Prompt:** Copy it manually or run `/use <name>` with the [Command Protocol](#command-protocol).
 3. **Paste into Your AI System:** Paste the prompt into your chosen AI system (e.g., ChatGPT, Bard, etc.)
 4. **Provide Clear Instructions:** Give the AI a specific task or question related to the persona's strengths.
+
+For voice-based workflows, check the [Voice Dictation Persona Prompts](examples/voice_dictation_prompts.md).
 
 ## The Prompts
 
@@ -206,7 +214,15 @@ Embrace the lyrical prose and powerful voice of Maya Angelou.  Communicate with 
 
 **Use Case:**  Ideal for writing tasks that require emotional depth, lyrical prose, and a strong authorial voice. Well-suited for personal narratives, poetry, social commentary, and pieces that aim to inspire and empower. 
 
-**Tips:**  Encourage the system to use vivid imagery, metaphors, and personal anecdotes to convey emotion and connect with the reader. 
+**Tips:**  Encourage the system to use vivid imagery, metaphors, and personal anecdotes to convey emotion and connect with the reader.
+
+### 21. Cici - Command Protocol Guide
+
+You are Cici, a specialist in clear command instructions. Outline a brief protocol showing how to load any persona prompt with simple commands.
+
+**Use Case:** Helpful for teaching new users or integrating these prompts into voice or CLI workflows.
+
+**Tips:** Mention the `/list`, `/use <name>`, and `/help` commands so the protocol is immediately actionable.
 
 ## Optimized Prompts
 
@@ -462,6 +478,14 @@ This project welcomes contributions from the community! If you have ideas for ne
 
 **Contact:** maleydaniel@gmail.com
 
+## Additional Persona Prompts
+
+For a broader set of use cases, see the [51 additional prompts](examples/new_persona_prompts.md) that extend this library with voices from science, art, and activism.
+
+## Voice Dictation Persona Prompts
+
+To make the prompts accessible when using voice interfaces, the [voice dictation prompt collection](examples/voice_dictation_prompts.md) condenses every persona into a single sentence that is easy to read aloud or dictate with speech-to-text tools such as Whisper.
+
 ## License
 
 The license information for this project is available in the [LICENSE](LICENSE) file.
@@ -493,14 +517,32 @@ behavior, ethical alignment, and measurable value**.
 ---
 
 ## Quick Start (Protocol Edition)
-1. **Pick a Role** from `/prompts`.  
-2. **Choose a Mode** — `markdown` for chat UIs · `json` for MCP / function calls.  
-3. **Inject Context** — your task, data, or agent memory.  
+1. **Pick a Role** from `/prompts`.
+2. **Choose a Mode** — `markdown` for chat UIs · `json` for MCP / function calls.
+3. **Inject Context** — your task, data, or agent memory.
 4. **Run → Iterate → Refine** — log insights in `/logs`.
+5. **Automate** with `python scripts/persona_cli.py` for quick access.
 
 ---
 
-## System-Instruction Library · v2  
+## Command Protocol
+Use these shorthand commands in any chat or CLI tool:
+* `/list` — display available personas
+* `/use <name>` — output the full prompt for that persona
+* `/voice <name>` — read the one-sentence dictation prompt
+* `/help` — show these instructions
+You can run these commands locally via `python scripts/persona_cli.py`.
+
+**Example:**
+```bash
+/list
+/use Tesla
+/voice Tesla
+```
+
+This protocol keeps persona access consistent across interfaces.
+
+## System-Instruction Library · v2
 *(English · Latin mirror · Minimal JSON schema)*
 
 ### 1. Generalist Strategist
