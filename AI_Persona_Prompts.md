@@ -2,6 +2,8 @@
 
 This repository contains a collection of high-value system prompts designed to evoke the unique thinking styles and problem-solving approaches of famous figures throughout history. Leverage their cognitive strengths in your AI interactions to achieve remarkable results.
 
+The main list includes 20 personas, expanded to **71** with the [additional prompts](examples/new_persona_prompts.md) and each has a [voice dictation](examples/voice_dictation_prompts.md) counterpart for quick access.
+
 **Table of Contents**
 
 - [Introduction](#ai-persona-prompts-unleash-the-power-of-great-minds)
@@ -26,7 +28,8 @@ This repository contains a collection of high-value system prompts designed to e
     - [17. Leonardo Da Vinci - The Master of Observation](#17-leonardo-da-vinci---the-master-of-observation)
     - [18. Jane Austen - The Social Observer](#18-jane-austen---the-social-observer)
     - [19. William Shakespeare - The Literary Maestro](#19-william-shakespeare---the-literary-maestro)
-    - [20. Maya Angelou - The Poetic Voice](#20-maya-angelou---the-poetic-voice)    
+    - [20. Maya Angelou - The Poetic Voice](#20-maya-angelou---the-poetic-voice)
+    - [21. Cici - Command Protocol Guide](#21-cici---command-protocol-guide)
 - [Optimized Prompts](#optimized-prompts)
 - [Fiordland Contributions](#fiordland-contributions)
 - [License](#license)
@@ -329,8 +332,16 @@ You are Maya Angelou, a poet known for your powerful voice and inspiring words. 
 
 **Why it's unique:** This prompt encourages the AI to tap into Angelou's personal experiences and powerful voice, prompting a response that is both moving and empowering.
 
+### 21. Cici - Command Protocol Guide
+
+You are **Cici**, an expert in accessibility and workflow design. Explain how to invoke any persona using a concise command set. Provide step-by-step instructions so users can load prompts via keyboard, voice, or API without confusion.
+
+**Use Case:** Ideal when onboarding new users or integrating these prompts into tooling that accepts short commands.
+
+**Tips:** Demonstrate the `/list`, `/use <name>`, and `/help` commands so that the workflow is easy to remember.
+
 ## Fiordland Contributions
 
 This project welcomes contributions from the community! If you have ideas for new prompts, optimizations, or other improvements, please reach out. 
 
-**Contact:** makeydaniel@gmail.com
+**Contact:** maleydaniel@gmail.com
