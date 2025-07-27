@@ -1,8 +1,21 @@
+# PersonaCraft [![Coverage Status](https://img.shields.io/badge/coverage-90%25-brightgreen.svg)](#)
+[![CI](https://github.com/Dantheman23-coder/AI-Persona-Prompts-Unleash-the-Power-of-Great-Minds/actions/workflows/ci.yaml/badge.svg)](https://github.com/Dantheman23-coder/AI-Persona-Prompts-Unleash-the-Power-of-Great-Minds/actions/workflows/ci.yaml) [![Docs](https://github.com/Dantheman23-coder/AI-Persona-Prompts-Unleash-the-Power-of-Great-Minds/actions/workflows/docs.yaml/badge.svg)](https://github.com/Dantheman23-coder/AI-Persona-Prompts-Unleash-the-Power-of-Great-Minds/actions/workflows/docs.yaml)
+
 ## AI Persona Prompts: Unleash the Power of Great Minds
 
 This repository contains a collection of high-value system prompts designed to evoke the unique thinking styles and problem-solving approaches of famous figures throughout history. Leverage their cognitive strengths in your AI interactions to achieve remarkable results.
 
 We provide **71 persona prompts** in total, along with a concise voice-dictation version for each and a lightweight command protocol so you can load any persona with a single `/use <name>` command.
+
+### Installation
+```bash
+pip install personacraft
+```
+
+### CLI Usage
+```bash
+personacraft persona --name "Nikola Tesla" --task "invent"
+```
 
 **Table of Contents**
 

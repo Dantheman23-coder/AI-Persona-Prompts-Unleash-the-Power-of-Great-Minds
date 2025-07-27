@@ -1,0 +1,7 @@
+site_name: PersonaCraft
+repo_url: https://github.com/Dantheman23-coder/AI-Persona-Prompts-Unleash-the-Power-of-Great-Minds
+nav:
+  - Home: index.md
+  - Personae: personae.md
+plugins:
+  - search
